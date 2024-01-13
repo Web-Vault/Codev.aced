@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Login | codev.aced</title>
+
+
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+          <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+                    * {
+                              font-family: 'Montserrat Alternates', sans-serif;
+                              margin: 0;
+                              padding: 0;
+                    }
+
+                    html {
+                              scroll-behavior: smooth;
+                    }
+
+                    .logo {
+                              /* border: 1px solid black; */
+                              /* flex-basis: 15%; */
+                              padding:0.5% 0.51% 8%;
+                              /* display: flex; */
+                              text-align: center;
+                              font-size: xx-large;
+                    }
+
+                    /*  */
+
+                    .login-container {
+                              /* border: 1px solid black; */
+                              box-shadow: -1px 2px 30px rgba(0,0,0,0.5);
+                              border-radius: 1rem;
+                              padding: 2%;
+                              width: 30%;
+                              margin: 17% auto;
+                    }
+
+                    .form {
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                    }
+
+                    .field {
+                              display: flex;
+                              margin: 10px;
+                    }
+
+                    .txt {
+                              border: 1px solid black;
+                              height: 31px;
+                              width: 31px;
+                              margin-right: 5px;
+                    }
+
+                    input {
+                              height: 30px;
+                              width: 250px;
+                    }
+
+                    .forget {
+                              font-size: smaller;
+                              display: flex;
+                              justify-content: end;
+                    }
+
+                    .submit {
+                              width: 100%;
+                    }
+
+                    .add-user {
+                              margin-top: 5%;
+                    }
+          </style>
+</head>
+
+<body>
+          <main>
+                    <div class="login-container">
+                              <div class="logo">CODEV.ACED</div>
+
+                              <div class="form">
+                                        <form action="" method="post">
+                                                  <div class="field">
+                                                            <div class="txt"></div>
+                                                            <div class="input">
+                                                                      <input type="text" name="username" id="username"
+                                                                                placeholder="UserName">
+                                                            </div>
+                                                  </div>
+
+                                                  <div class="field">
+                                                            <div class="txt"></div>
+                                                            <div class="input">
+                                                                      <input type="text" name="password" id="password"
+                                                                                placeholder="PassWord">
+                                                                                <div class="forget">
+                                                                                          <a href="#">forget password?</a>
+                                                                                </div>
+                                                            </div>
+                                                  </div>
+
+                                                  <div class="field add-user">
+                                                            <div class="input submit">
+                                                                      <input type="submit" name="submit" id="submit"
+                                                                                value="Submit" class="submit">
+                                                            </div>
+                                                  </div>
+                                        </form>
+                              </div>
+                    </div>
+          </main>
+</body>
+
+</html>
